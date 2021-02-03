@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="resource-server" />
+        <module name="oauth2-2" />
+        <module name="net5ijy-oauth2-common" />
+        <module name="authorization-server" />
+        <module name="oauth2-httpclient" />
+        <module name="basic-oauth2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="authorization-server" target="1.8" />
+      <module name="basic-oauth2" target="1.8" />
+      <module name="net5ijy-oauth2-common" target="1.8" />
+      <module name="oauth2-2" target="1.8" />
+      <module name="oauth2-httpclient" target="1.8" />
+      <module name="oauth2-parent" target="1.8" />
+      <module name="resource-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
